@@ -1,11 +1,12 @@
 # MCU name
 MCU = STM32F303
 BOARD = QMK_PROTON_C
-
+SRC = matrix.c
 # Build Options
 #   change to "no" to disable the options, or define them in the Makefile in
 #   the appropriate keymap folder that will get included automatically
 #
+CUSTOM_MATRIX = yes
 BOOTMAGIC_ENABLE = yes      # Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes      # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
