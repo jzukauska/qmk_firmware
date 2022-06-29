@@ -17,7 +17,7 @@
 
 // Plug USB into the left half of the keyboard
 // see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
-#define MASTER_LEFT
+#define MASTER_LEFT                                                                /
 
 // Enabling this option changes the startup behavior to listen for an
 // active USB communication to delegate which part is master and which
@@ -33,7 +33,7 @@
 #define RGB_DISABLE_WHEN_USB_SUSPENDED     // turn off effects when suspended
 #define SPLIT_TRANSPORT_MIRROR             // If LED_MATRIX_KEYPRESSES or LED_MATRIX_KEYRELEASES is enabled, you also will want to enable SPLIT_TRANSPORT_MIRROR
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 100  // limits maximum brightness of LEDs (max 255). Higher may cause the controller to crash.
-#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_BREATHING
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_TYPING_HEATMAP
 
 // Animations
 // Uncomment any that you want to try. Limited by
